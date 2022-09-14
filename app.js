@@ -8,9 +8,9 @@ const msg = document.querySelector("#msg");
 function checkLuck(sum, luckyDigit){
     if(sum % luckyDigit === 0)
     {
-        msg.innerText = "Your birth date is lucky."
+        msg.innerText = "Your birth date is lucky. 😎😊🎉"
     } else {
-        msg.innerText = "Your birth date is not lucky."
+        msg.innerText = "Your birth date is not lucky.😢"
     }
  
 };
